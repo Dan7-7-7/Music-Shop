@@ -8,4 +8,12 @@ public class Instrument {
         this.costPrice = costPrice;
         this.salePrice = salePrice;
     }
+
+    public int getCostPrice() {
+        return costPrice;
+    }
+
+    public int getSalePrice() {
+        return salePrice;
+    }
 }
